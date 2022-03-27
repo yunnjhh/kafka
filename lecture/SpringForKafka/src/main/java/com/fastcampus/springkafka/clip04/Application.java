@@ -45,8 +45,8 @@ public class Application {
     @Bean
     public ApplicationRunner runner(ClipProducer clipProducer) {
         return args -> {
-//            clipProducer.async("clip4-listener-header", "Hello, Clip4 Listener Header 2 ");
-            clipProducer.async("clip4-animal", new Animal("puppy", 11));
+            clipProducer.async("clip4-listener-header", "Hiiiii222 ");
+//            clipProducer.async("clip4-animal", new Animal("puppy", 11));
         };
     }
 
