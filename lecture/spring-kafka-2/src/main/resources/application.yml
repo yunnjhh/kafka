@@ -1,0 +1,12 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "metrics, prometheus"
+
+server:
+  port: 8180
+
+#        include: "*" -> 모든 것 포함
+#        include: "metrics, prometheus" metrics, prometheus 만 사용! 이 두가지의 endpoint 생성
+#        exclude: "" -> 뺄 것 설정
